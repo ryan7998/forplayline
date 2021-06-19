@@ -5,9 +5,13 @@
 - Play Line coding test
 - Fetch data from api and display accordingly
 
-## Contributors:
+## Author:
 
 - FAZEL RYAN CHOWDHURY : ryan7998@gmail.com
+
+## Live Site:
+
+https://ryan7998.github.io/forplayline/
 
 ## Screenshots
 
