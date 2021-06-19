@@ -36,9 +36,11 @@ function App() {
         <section className="players-list">
           {playersInfo && headShotObj &&
             playersInfo.map(player=>(
-              <div key = {`${player.last_name}-${player.points}`}>
+              <div className="player-item" key = {`${player.last_name}-${player.points}`}>
+                <div className="image-container">
+                  <img src={headShotObj.[player.last_name.toLowerCase()]}></img>
+                </div>
                 {player.last_name.toLowerCase()} {player.points} 
-                {/* <img src={headShotObj.[player.last_name.toLowerCase()]}></img> */}
               </div>
             ))
           }
