@@ -63,6 +63,12 @@ main {
   flex-direction: column;
   position: relative;
 }
+.player-item:hover {
+  cursor: pointer;
+}
+.player-item:hover .image-container {
+  width: 80px;
+}
 .player-item p {
   font-size: 0.9rem;
 }
@@ -73,6 +79,7 @@ main {
   border: 3px solid rgb(255, 255, 255);
   border-radius: 50%;
   overflow: hidden;
+  transition: all 0.5s;
 }
 .player-item img {
   max-width: 100%;
@@ -111,7 +118,7 @@ main {
   margin: 1.5em;
   flex-wrap: wrap;
 }
-.button-list button {
+button {
   align-items: center;
   border-radius: 40px;
   cursor: pointer;
@@ -160,6 +167,34 @@ footer > a {
   text-transform: uppercase;
   margin: 0.5em;
   text-decoration: none;
+}
+.modalBackdrop {
+  background: rgb(255 255 255 / 87%);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.modalContainer {
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 960px;
+}
+.modalContainer img {
+  max-width: 100%;
+}
+
+.modalTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 768px) {
