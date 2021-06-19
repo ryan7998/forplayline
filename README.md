@@ -7,7 +7,7 @@
 
 ## Author:
 
-- FAZEL RYAN CHOWDHURY : ryan7998@gmail.com
+- FAZEL RYAN CHOWDHURY : mail@fazleryan.com
 
 ## Live Site:
 
