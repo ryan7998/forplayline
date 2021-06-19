@@ -187,6 +187,9 @@ footer > a {
   padding: 15px;
   width: 960px;
 }
+.modalContainer button {
+  padding: 1em 2em;
+}
 .modalContainer img {
   max-width: 100%;
 }
