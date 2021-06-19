@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/forplayline/static/css/main.92a0e966.chunk.css",
+    "main.js": "/forplayline/static/js/main.a140cc64.chunk.js",
+    "main.js.map": "/forplayline/static/js/main.a140cc64.chunk.js.map",
+    "runtime-main.js": "/forplayline/static/js/runtime-main.4c9d6076.js",
+    "runtime-main.js.map": "/forplayline/static/js/runtime-main.4c9d6076.js.map",
+    "static/js/2.44ea6863.chunk.js": "/forplayline/static/js/2.44ea6863.chunk.js",
+    "static/js/2.44ea6863.chunk.js.map": "/forplayline/static/js/2.44ea6863.chunk.js.map",
+    "static/js/3.3e3fd2c4.chunk.js": "/forplayline/static/js/3.3e3fd2c4.chunk.js",
+    "static/js/3.3e3fd2c4.chunk.js.map": "/forplayline/static/js/3.3e3fd2c4.chunk.js.map",
+    "index.html": "/forplayline/index.html",
+    "static/css/main.92a0e966.chunk.css.map": "/forplayline/static/css/main.92a0e966.chunk.css.map",
+    "static/js/2.44ea6863.chunk.js.LICENSE.txt": "/forplayline/static/js/2.44ea6863.chunk.js.LICENSE.txt",
+    "static/media/Aaron Gordon -PLP59D7092156491v2.c5a850f1.png": "/forplayline/static/media/Aaron Gordon -PLP59D7092156491v2.c5a850f1.png",
+    "static/media/Anthony-Davis-PLP59D70938C0B3Ev2.bc9976a3.png": "/forplayline/static/media/Anthony-Davis-PLP59D70938C0B3Ev2.bc9976a3.png",
+    "static/media/Dangelo Russell PLP59D709255D994v4.c4fa5320.png": "/forplayline/static/media/Dangelo Russell PLP59D709255D994v4.c4fa5320.png",
+    "static/media/Kawhi-Leonard-PLP59D7093A107E7v2.977f4afc.png": "/forplayline/static/media/Kawhi-Leonard-PLP59D7093A107E7v2.977f4afc.png",
+    "static/media/Kyle-Lowry-PLP59D70927DF104.43db2b3b.png": "/forplayline/static/media/Kyle-Lowry-PLP59D70927DF104.43db2b3b.png",
+    "static/media/Lebron-James-PLP59D7092A6F6CEv2.7d590eb2.png": "/forplayline/static/media/Lebron-James-PLP59D7092A6F6CEv2.7d590eb2.png",
+    "static/media/Pascal-Siakam-PLP59D70927CC6DD.5f382aac.png": "/forplayline/static/media/Pascal-Siakam-PLP59D70927CC6DD.5f382aac.png",
+    "static/media/google-play@2x.c509f24c.png": "/forplayline/static/media/google-play@2x.c509f24c.png",
+    "static/media/ios-app@2x.22dba14d.png": "/forplayline/static/media/ios-app@2x.22dba14d.png",
+    "static/media/logo@1x.37f792f0.png": "/forplayline/static/media/logo@1x.37f792f0.png",
+    "static/media/App.css": "/forplayline/static/media/morganposteravec_bold-webfont.f8bd1c59.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c9d6076.js",
+    "static/js/2.44ea6863.chunk.js",
+    "static/css/main.92a0e966.chunk.css",
+    "static/js/main.a140cc64.chunk.js"
+  ]
+}
