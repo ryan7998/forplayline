@@ -53,6 +53,7 @@ main {
 }
 .players-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 1em;
@@ -108,6 +109,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin: 1.5em;
+  flex-wrap: wrap;
 }
 .button-list button {
   align-items: center;
@@ -145,7 +147,7 @@ button h4 {
 footer {
   color: rgb(161, 161, 161);
   display: flex;
-  /* padding: 1em; */
+  flex-wrap: wrap;
   margin: 2em;
   align-items: center;
   justify-content: center;
@@ -158,4 +160,15 @@ footer > a {
   text-transform: uppercase;
   margin: 0.5em;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .button-list button {
+    margin: 1em;
+  }
 }

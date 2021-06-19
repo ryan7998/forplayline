@@ -6,8 +6,8 @@ const Bottom = ({iosBtn, gpBtn}) =>{
         <div className="border" />
         <p><b>DOWNLOAD THE APP</b></p>
         <div className="download-btn">
-          <a href=""><img src={iosBtn} /></a>
-          <a href=""><img src={gpBtn} /></a>
+          <a href="https://fazleryan.com"><img src={iosBtn} alt = "iso button"/></a>
+          <a href="https://fazleryan.com"><img src={gpBtn} alt = "google play button"/></a>
         </div>
       </section>
     )

@@ -1,4 +1,3 @@
-// import gordon from "../../assets/headshots/Ar";
 import gordon from "../assets/headshots/Aaron Gordon -PLP59D7092156491v2.png";
 import davis from "../assets/headshots/Anthony-Davis-PLP59D70938C0B3Ev2.png";
 import russell from "../assets/headshots/Dangelo Russell PLP59D709255D994v4.png";

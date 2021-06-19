@@ -29,7 +29,6 @@ function App() {
         <Bottom iosBtn ={assets.iosBtn} gpBtn = {assets.googleBtn}/>
       </main>
       <Footer />
-      
     </>
   );
 }

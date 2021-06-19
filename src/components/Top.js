@@ -3,7 +3,7 @@ import React from 'react';
 const Top = ({pBar}) =>{
     return(
         <>
-            <img className="progress-bar" src={pBar} />
+            <img className="progress-bar" src={pBar} alt="progress bar" />
             <section className="top">
             <h1>YOUR PLAYLINE IS SET!</h1>
             <h2>COME BACK @ 7:30PM TO TRACK IT LIVE!</h2>
