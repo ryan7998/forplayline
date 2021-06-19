@@ -9,7 +9,11 @@ import siakam from "../assets/headshots/Pascal-Siakam-PLP59D70927CC6DD.png";
 
 import progressbar from "../assets/icons/progress@2x.png"
 import logo from "../assets/logo/logo@1x.png";
+import notifyBtn from "../assets/icons/notify-me@2x.png";
+import depositBtn from "../assets/icons/money-bag@2x.png";
+import googleBtn from "../assets/icons/google-play@2x.png";
+import iosBtn from "../assets/icons/ios-app@2x.png";
 
 export const headShotObj = {gordon:gordon, davis:davis, russell:russell, leonard:leonard, lowry:lowry, james:james, siakam:siakam}
 
-export const assets = {logo, progressbar};
+export const assets = {logo, progressbar, notifyBtn, depositBtn, googleBtn, iosBtn};

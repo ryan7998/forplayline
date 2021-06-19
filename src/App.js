@@ -40,17 +40,49 @@ function App() {
                 <div className="image-container">
                   <img src={headShotObj.[player.last_name.toLowerCase()]}></img>
                 </div>
-                {player.last_name.toLowerCase()} {player.points} 
+                
+                <p>{player.last_name.toUpperCase()}</p> 
+                <div className="points-container"><p>{player.points}</p></div>
+                <p className="pts">PTS</p>
               </div>
             ))
           }
         </section>
+        <section className="button-list">
+          <button>
+            <img src={assets.notifyBtn} />
+            <h4>NOTIFY ME</h4>
+          </button>
+          <button>
+            <img src={assets.depositBtn} />
+            <h4>DEPOSIT</h4>
+          </button>
+        </section>
         <section className="bottom">
-
+          <div className="border" />
+          <p><b>DOWNLOAD THE APP</b></p>
+          <div className="download-btn">
+            <a href=""><img src={assets.iosBtn} /></a>
+            <a href=""><img src={assets.googleBtn} /></a>
+          </div>
         </section>
       </main>
       <footer>
-
+        <a href="">About</a>
+        <p> | </p>
+        <a href="">PLB Bonus</a>
+        <p> | </p>
+        <a href="">Contact</a>
+        <p> | </p>
+        <a href="">Security</a>
+        <p> | </p>
+        <a href="">
+          Responsible Play
+        </a>
+        <p> | </p>
+        <a href="">Privacy</a>
+        <p> | </p>
+        <a href="">Terms</a>
       </footer>
       
     </>
