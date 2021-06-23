@@ -12,7 +12,8 @@ function App() {
 
   const fetchPlayers = async() =>{
     // use https://cors-anywhere.herokuapp.com/ to resolve cors issue from localhost:
-    const response = await fetch('https://cors-anywhere.herokuapp.com/https://playline-dev-test.s3-us-west-2.amazonaws.com/playline-test.json');
+    // const response = await fetch('https://cors-anywhere.herokuapp.com/https://playline-dev-test.s3-us-west-2.amazonaws.com/playline-test.json');
+    const response = await fetch('https://playline-dev-test.s3-us-west-2.amazonaws.com/playline-test.json');
     const {players} = await response.json();
     setPlayersInfo(players);
   }
